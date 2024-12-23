@@ -1,0 +1,20 @@
+ru-core-news-md @ https://github.com/explosion/spacy-models/releases/download/ru_core_news_md-3.7.0/ru_core_news_md-3.7.0-py3-none-any.whl
+en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.7.1/en_core_web_md-3.7.1-py3-none-any.whl
+uk-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/uk_core_news_sm-3.7.0/uk_core_news_sm-3.7.0-py3-none-any.whl
+spacy
+psycopg2-binary
+python-dotenv
+pandas
+numpy
+torch
+sentence-transformers
+rake-nltk
+sumy
+pydantic
+pytesseract
+emoji==2.13.2
+fuzzywuzzy
+python-Levenshtein
+transliterate
+requests
+pydub

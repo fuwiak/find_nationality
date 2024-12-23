@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  nationality_service:
+    build: .
+    container_name: nationality_service
+    volumes:
+      - ./:/app
+    environment:
+      - INPUT_CITIZEN_FILE=citizen_sample.csv
+      - INPUT_ALLDATA_FILE=alldata.txt
+      - OUTPUT_FILE=output_result.csv
+    command: []
